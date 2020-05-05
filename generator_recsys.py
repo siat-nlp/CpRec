@@ -2,7 +2,6 @@ import tensorflow as tf
 import ops_compress
 from BlockWiseEmbedding import BlockWiseEmbeddingForInput as bl
 from BlockWiseEmbedding import BlockWiseEmbeddingForSoftmax as bs
-import lowranksoftmax
 import time
 
 class NextItNet_Decoder:
